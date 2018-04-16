@@ -33,7 +33,12 @@ body {
     width: 100%;
 }
 
+.main-header__logo {
+    display: inline-block;
+}
+
 .main-nav {
+    display: inline-block;
 }
 
 .main-nav__items {
