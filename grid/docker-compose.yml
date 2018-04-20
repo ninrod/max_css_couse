@@ -1,0 +1,7 @@
+nginx:
+  image: nginx:1.13.12-alpine
+  container_name: grid
+  volumes:
+    - .:/usr/share/nginx/html:ro
+  ports:
+    - "80:80"
